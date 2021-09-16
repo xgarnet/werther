@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HiddenUnit.cpp" />
+    <ClCompile Include="InputUnit.cpp" />
+    <ClCompile Include="NegativWeight.cpp" />
+    <ClCompile Include="Nullweight.cpp" />
+    <ClCompile Include="OutputUnit.cpp" />
+    <ClCompile Include="PositivWeight.cpp" />
     <ClCompile Include="Quelle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HiddenUnit.h" />
+    <ClInclude Include="InputUnit.h" />
+    <ClInclude Include="NegativWeight.h" />
+    <ClInclude Include="Nullweight.h" />
+    <ClInclude Include="OutputUnit.h" />
+    <ClInclude Include="PositivWeight.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

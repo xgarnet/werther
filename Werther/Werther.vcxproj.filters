@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Headerdateien\Weights">
+      <UniqueIdentifier>{f2d9db4f-1eec-48e8-9824-207642596e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Weights">
+      <UniqueIdentifier>{38a92025-9520-487b-8f83-a29ccb14514f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Quelle.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="InputUnit.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenUnit.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputUnit.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="PositivWeight.cpp">
+      <Filter>Quelldateien\Weights</Filter>
+    </ClCompile>
+    <ClCompile Include="NegativWeight.cpp">
+      <Filter>Quelldateien\Weights</Filter>
+    </ClCompile>
+    <ClCompile Include="Nullweight.cpp">
+      <Filter>Quelldateien\Weights</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputUnit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenUnit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputUnit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="PositivWeight.h">
+      <Filter>Headerdateien\Weights</Filter>
+    </ClInclude>
+    <ClInclude Include="NegativWeight.h">
+      <Filter>Headerdateien\Weights</Filter>
+    </ClInclude>
+    <ClInclude Include="Nullweight.h">
+      <Filter>Headerdateien\Weights</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
